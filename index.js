@@ -22,3 +22,11 @@ exports.Help = Help;
 exports.CommanderError = CommanderError;
 exports.InvalidArgumentError = InvalidArgumentError;
 exports.InvalidOptionArgumentError = InvalidArgumentError; // Deprecated
+import { initializeApp } from 'firebase/app';
+
+// TODO: Replace the following with your app's Firebase project configuration
+const firebaseConfig = {
+  //...
+};
+
+const app = initializeApp(firebaseConfig);
